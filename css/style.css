@@ -1,0 +1,79 @@
+
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover; /* Copri l'intero sfondo */   
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+.logo img {
+    width: 200px; 
+    height: 30%;   
+  }
+
+
+  h1{
+    color:#00DD00 ;
+    margin-top: 2px;
+    margin-bottom: 4px;
+  }
+
+
+.contenitor{ 
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.584);
+    padding: 5%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    }
+
+
+header, nav{
+    text-align: center;
+}    
+
+
+nav{
+    background-color:#00DD00;
+    padding: 1%;
+}
+
+
+span, p{
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+
+h2{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+
+.charge{
+    background-color: #F5B453; 
+    height: 30px;   
+    width: 48%;          
+    margin: 10px 0; /* Aggiunge spazio sopra e sotto la riga lo zero lo mette in linea con la scritta*/
+    border-radius: 10px;
+}
+
+.charge2{
+    background-color: #1EC31E; 
+    height: 30px; 
+    width: 80%;    
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.charge3{
+    background-color: #BE4141; 
+    height: 30px; 
+    width: 15%;    
+    margin: 10px 0; 
+    border-radius: 10px;
+}
